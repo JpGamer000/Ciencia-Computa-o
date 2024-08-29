@@ -1,12 +1,11 @@
 
 function exercicio1() {
-    let nota;
+    let nota = prompt("Digite uma nota entre 0 e 10:");
+        
+    while (nota < 0 || nota > 10);
     
-        nota = ("Digite uma nota entre 0 e 10:");
-        if ( nota < 0 || nota > 10) {
-            console.log("Nota inválida, digite novamente ");
-        }
-    while (nota >= 0 || nota <= 10);
+    prompt("Digite uma nota de 0 a 10);
+    if ( nota >= 0 || nota <= 10) {
     
-    console.log(`Sua nota é:${nota}`);
+    alert(`Sua nota é:${nota}`);
 }
