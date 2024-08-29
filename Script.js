@@ -7,5 +7,5 @@ function exercicio1() {
     prompt("Digite uma nota de 0 a 10);
     if ( nota >= 0 || nota <= 10) {
     
-    alert(`Sua nota é:${nota}`);
+    alert("Sua nota é:" + nota);
 }
